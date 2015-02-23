@@ -13,3 +13,83 @@
  *= require_tree .
  *= require_self
  */
+
+#product_list
+{
+	background: #f3f3f3;
+	overflow-y: hidden;
+	z-index: 1000;
+}
+
+#button
+{
+	margin-left:1%;
+	width: 120px;
+	height: 30px;
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+	font-size: 12pt;
+	text-align: -webkit-center;
+	margin-bottom: 5px;
+}
+
+#button a:link,
+#button a:visited,
+#button a:hover
+{	
+	color: white !important;
+	font-size: 12pt;
+	line-height: 30px;
+	background-color: green;
+}
+
+.item
+{
+	background: lightgrey;
+	border-radius: 5px;
+	transition: background-color 0.5s ease;
+	margin-bottom:5px;
+	width:98%;
+	height: 67px;
+	margin-left: 1%;
+}
+
+.fake_img
+{
+	background-color: #D0F5A9	;
+	border-radius: 8px;
+	height:	60px; 
+	width: 60px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 3px
+}
+
+.brief_info
+{
+	float: left;
+	margin-left: 10px;
+	font-size: 12pt;
+}
+
+.options
+{
+	margin-bottom:5px;
+	font-size: 12pt;
+	text-decoration: none !important;
+	color:black;
+	margin-left:1%;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: gray;
+};
+
+a:visited{
+	color:#000;
+};
